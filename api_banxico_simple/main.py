@@ -31,7 +31,7 @@ URL_BANXICO = "https://www.banxico.org.mx/SieAPIRest/service/v1/series"
 SERIES = {
     "dolar": os.getenv("SERIE_DOLAR", "SF43718"),  # Tipo de cambio FIX
     "udi": os.getenv("SERIE_UDI", "SP68257"),      # Valor de la UDI
-    "metal": os.getenv("SERIE_METAL", ""),         # Se configura en el .env
+    "metal": os.getenv("SERIE_METAL", ""),         # Valor de la onza de oro
 }
 
 NOMBRES = {
